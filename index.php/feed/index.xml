@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CSoNet 2021</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
+	<description>November 15-17, 2021 - Montreal, Quebec</description>
+	<lastBuildDate>Mon, 10 May 2021 19:46:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>New Track</title>
+		<link>./../2021/05/10/new-track/index.html</link>
+					<comments>./../2021/05/10/new-track/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[lannn]]></dc:creator>
+		<pubDate>Mon, 10 May 2021 19:46:42 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://optnetsci.cise.ufl.edu/CSoNet/?p=359</guid>
+
+					<description><![CDATA[New Track content]]></description>
+										<content:encoded><![CDATA[
+<p>New Track content</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2021/05/10/new-track/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Welcome to CSoNet 2020!</title>
+		<link>./../2020/06/10/hello-world/index.html</link>
+					<comments>./../2020/06/10/hello-world/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[lannn]]></dc:creator>
+		<pubDate>Wed, 10 Jun 2020 04:48:40 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://10.227.162.238/CSoNet/?p=1</guid>
+
+					<description><![CDATA[9th International Conference on Computational Data and Social NetworksDec 11-13, Dallas, TX CSoNet 2020 provides a premier interdisciplinary forum to bring together researchers and practitioners from all fields of big data and social networks, such as billion-scale network computing, social network/media analysis, mining, security and privacy, and deep learning. CSoNet 2020 seeks to address emerging [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>9th International Conference on Computational Data and Social NetworksDec 11-13, Dallas, TX</strong></p>
+
+
+
+<p>CSoNet 2020 provides a premier interdisciplinary forum to bring together researchers and practitioners from all fields of big data and social networks, such as billion-scale network computing, social network/media analysis, mining, security and privacy, and deep learning. CSoNet 2020 seeks to address emerging yet important computational problems, with a focus on the fundamental background, theoretical technology development, and real-world applications associated with big data network analysis, modelling, and deep learning. The conference solicits theoretical, methodological, empirical, and experimental research reporting original and unpublished results on computational big data and social networks. Topics of interest include, but are not limited to:</p>
+
+
+
+<ul><li>Real-world Complex Networks Analysis</li><li>Trends and Pattern Analysis in Social Networks</li><li>Representation Learning on Networks</li><li>Big Data Analysis</li><li>Mathematical Modeling and Analysis of Real-world Social Platforms</li><li>Network Structure Analysis and Dynamics Optimization</li><li>Data Network Design and Architecture</li><li>Information Diffusion Models and Techniques</li><li>Security and Privacy in Data Networks</li><li>Efficient Algorithms for Large-scale Data Networks Computing</li><li>Reputation and Trust in Social Media</li><li>Social Influence, Recommendation, and Media</li><li>Applications of Complex Data Network Analysis</li><li>Energy Efficiency in Mobile Data Networks</li><li>Natural Language Understanding for Social Media</li><li>E-commerce and Social Media Marketing</li><li>Deep Learning on Graphs and its Application</li><li>Stock Market Prediction and Stock Recommendation with Social Media Data</li><li>Anomaly Detection, Security, and Privacy in Big Data Networks</li><li>Analysis of signed and attributed real-world networks</li><li>Multidimensional graph analysis</li><li>Algorithmic fairness in social network analysis and graph mining.</li></ul>
+
+
+
+<p>Accepted papers will be published in Springer’s Lecture Notes in Computer Science, and indexed by ISI (CPCI-S, included in ISI Web of Science), EI Engineering Index (Compendex and Inspec databases), ACM Digital Library, DBLP, Google Scholar, MathSciNet, etc. Also, extended versions of selected best papers will be invited for publication in Journal of Combinatorial Optimization, IEEE Transactions on Network Science and Engineering, and Computational Social Networks.</p>
+
+
+
+<h2><strong>Important Dates</strong></h2>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><strong>Paper Submission</strong><strong></strong></td><td><strong>Acceptance Notification</strong><strong></strong></td><td><strong>Camera Ready &amp; Registration</strong><strong></strong></td><td><strong>Conference Dates</strong></td></tr><tr><td>July 31, 2020<strong></strong></td><td>September 30, 2020<strong></strong></td><td>October 15, 2020<strong></strong></td><td>December 11-13, 2020</td></tr></tbody></table></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2020/06/10/hello-world/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
