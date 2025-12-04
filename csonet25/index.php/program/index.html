@@ -350,7 +350,13 @@
 		.wp-block-table.is-style-stripes td,
 		.wp-block-table.is-style-stripes th {
 			border-color: #dbdbdb;
+			border-width: 2px;   /* increase thickness */
 		}
+		.wp-block-table.is-style-stripes tbody tr:nth-child(odd),
+		.wp-block-table.is-style-stripes tbody tr:nth-child(even) {
+			background-color: #e6f0ff; /* light blue */
+		}
+		
 
 		.wp-block-table table {
 			font-size: 14px;
@@ -371,6 +377,42 @@
                 .slide-item-3 {
                         background-image: url(./../../wp-content/uploads/2025/03/danang2.jpg) !important;
                 }
+		
+				.csonet-tabs {
+				margin-top: 20px;
+				}
+
+				.csonet-tabs .tab-header {
+				display: flex;
+				list-style: none;
+				padding: 0;
+				margin: 0 0 15px 0;
+				border-bottom: 2px solid #ccc;
+				}
+
+				.csonet-tabs .tab-header li {
+				padding: 10px 18px;
+				cursor: pointer;
+				border: 1px solid #ccc;
+				border-bottom: none;
+				margin-right: 5px;
+				background: #f5f5f5;
+				font-weight: 600;
+				}
+
+				.csonet-tabs .tab-header li.active {
+				background: #0073aa;
+				color: white;
+				border-color: #0073aa;
+				}
+
+				.csonet-tabs .tab-content {
+				display: none;
+				}
+
+				.csonet-tabs .tab-content.active {
+				display: block;
+				}
 
 	</style>
 </head>
@@ -518,17 +560,763 @@
 							<article id="post-293" class="post-293 page type-page status-publish hentry">			
 								<header class="entry-header">
 									<h1 class="title-post entry-title">Program</h1>
+									
 								</header><!-- .entry-header -->
 
+								
+								<div class="entry-content">
+									<div class="csonet-tabs">
+										<ul class="tab-header">
+										<li class="active" data-tab="day1">Sunday, December 14</li>
+										<li data-tab="day2">Monday, December 15</li>
+										<li data-tab="day3">Tuesday, December 16</li>
+										</ul>
 
-							<div class="entry-content">
-									
-							<div class="wp-block-file">
-							<p><strong>To Be Announced</strong></p>
-							<!-- <object class="wp-block-file__embed" data="./../../wp-content/uploads/2024/11/CSoNet2024Program_updated.pdf" type="application/pdf" style="width:100%;height:760px" aria-label="Embed of Technical Program CSoNet2024."></object><a href="./../../wp-content/uploads/2024/11/CSoNet2024Program_updated.pdf">Technical Program CSoNet2024</a><a href="./../../wp-content/uploads/2024/11/CSoNet2024Program_updated.pdf" class="wp-block-file__button" download>Download</a> -->
-							</div>
-										</div>
-							<!-- .entry-content -->
+										<!-- DAY 1 CONTENT -->
+										<div id="day1" class="tab-content active">
+										<figure class="wp-block-table is-style-stripes">
+											<table class="has-fixed-layout">
+											<thead>
+												<tr>
+												<th>Time</th>
+												<th>Session / Title</th>
+												<th>Speaker / Authors</th>
+												<th>Location</th>
+												</tr>
+											</thead>
+											<tbody>
+												<!-- Morning -->
+												<tr>
+												<td>08:00 – 08:30</td>
+												<td>Registration &amp; Welcome Coffee</td>
+												<td></td>
+												<td></td>
+												</tr>
+												<tr>
+												<td>08:30 – 09:00</td>
+												<td>Opening Remarks</td>
+												<td></td>
+												<td></td>
+												</tr>
+												<tr>
+												<td>9:00 - 9:50</td>
+												<td><strong>Keynote:</strong> Sequential Voting and the Reliability of Collective Decisions: From Condorcet to Computational Social Networks</td>
+												<td>Dr. Bo Chen</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td>9:50 - 10:10</td>
+												<td colspan="3" style="text-align:center;"><strong>Coffee Break</strong></td>
+												</tr>
+
+												<!-- Parallel Sessions (Morning) -->
+												<tr>
+												<td></td>
+												<td colspan="3" style="text-align:center;"><strong>Parallel Sessions</strong></td>
+												</tr>
+
+												<!-- Track: Computer Vision & Visual Understanding -->
+												<tr>
+												<td>10:10 - 11:50</td>
+												<td colspan="3" style="text-align:center;"><strong>Computer Vision &amp; Visual Understanding</strong></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 59 - A Multistage Action Detection Framework for Customer Behavior Analysis in Retail Surveillance</td>
+												<td>Bui, V.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 27 - Landmark-Guided Jigsaw Puzzle Autoencoders For Facial Expression Recognition</td>
+												<td>Do, H., Bui, S.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 63 - Real-time Detection of Vegetables in Isolation and in Dishes</td>
+												<td>Lam, K., La, T., Le, L., Kalita, J.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 39 - Integrating Skeleton Graphs with Transformers for Gloss-Free Indian Sign Language Captioning</td>
+												<td>Sharma, V., Chakraborty, B., Singh, A., Chauhan, A.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 143 - Energy-Guided Compressive Motion Detection under Edge Simulation Environments</td>
+												<td>Dung Ngoc Le Ha, Nghia Duong-Trung, Hiep Xuan Huynh</td>
+												<td></td>
+												</tr>
+
+												<!-- Track: AI-TECH Workshop 1 -->
+												<tr>
+												<td>10:10 - 11:50</td>
+												<td colspan="3" style="text-align:center;"><strong>AI-TECH Workshop 1: Forecasting, Diagnosis, and Recommendation</strong></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 144 - A Deep Learning-Driven Advanced Method for Household Electricity Consumption Forecasting</td>
+												<td>Duong Thi Kim Chi</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 36 - Machine Learning-Based Forecasting of LNG Spot Prices: A Case Study on the JKM Index</td>
+												<td>Duy-Phuong Pham, Thanh-Hoang Le, Tien-Dzung Vu, Duc-Minh Vu, Ba-Tuan Tran, Van-Tu Nguyen, Van-Nhan Truong, Thanh-Sang Nguyen, Tuyet-Vy Vu</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 152 - Generative AI-Augmented SVM for Non-Invasive Breath-Based Diagnosis of Type 2 Diabetes</td>
+												<td>Lam-Tung Nguyen, Thuy-Dung Phan, Gia-Bao Huynh, Trung-Hieu Le Luong, Hoang-Anh Pham</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 138 - Tag-based Movie Recommendation using Energy Distance</td>
+												<td>Dao Xuan Thi Nguyen, Khoi Nguyen-Tan, Hiep Xuan Huynh</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 154 - Improving Rice Yield Prediction via Local Learning with Heterogeneous Features</td>
+												<td>Thuy-Vi Ha Thi, Thanh-Nghi Do, Bao-An Nguyen</td>
+												<td></td>
+												</tr>
+
+												<!-- Lunch -->
+												<tr>
+												<td>11:50 - 13:30</td>
+												<td>Lunch</td>
+												<td></td>
+												<td></td>
+												</tr>
+
+												<!-- Rising Star Talk -->
+												<tr>
+												<td>13:30 - 14:05</td>
+												<td><strong>Rising Star Talk:</strong> Fair Allocation of Indivisible Chores: Beyond Additive Valuations</td>
+												<td>Dr. Bo Li</td>
+												<td></td>
+												</tr>
+
+												<!-- Parallel Sessions (Afternoon 1) -->
+												<tr>
+												<td></td>
+												<td colspan="3" style="text-align:center;"><strong>Parallel Sessions</strong></td>
+												</tr>
+
+												<!-- Track: Social Networks & Society -->
+												<tr>
+												<td>14:10 - 15:50</td>
+												<td colspan="3" style="text-align:center;"><strong>Social Networks &amp; Society</strong></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 22 - Academic Twitter: Gender-based Differences in Content, Emotion, and Public Response</td>
+												<td>Panchendrarajan, R., Saxena, H., Saxena, A.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 105 - Fairness-aware Analysis of Centrality Measures in Social Networks</td>
+												<td>Mohapatra, K., Singh, H., Singh, R., Saxena, A.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 83 - Infodemic Intelligence for 2025 Infections: AIV, FMD, MPox, and HMPV</td>
+												<td>Jarynowski, A., Semenov, A., Łódzki, B., Belik, V.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 15 - Fusing Structured Data with Vision-Language Transformer for Social Media Popularity Prediction</td>
+												<td>Li, H., Xing, W., Li, C., Lyu, B.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 28 - Integrating Network-Derived Metrics: A Feature Augmentation Framework for Improved Prediction</td>
+												<td>Singhal, A., Singh, A.</td>
+												<td></td>
+												</tr>
+
+												<!-- Track: AI-TECH Workshop 2 -->
+												<tr>
+												<td>14:10 - 15:50</td>
+												<td colspan="3" style="text-align:center;"><strong>AI-TECH Workshop 2: Energy-based Approaches</strong></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 95 - Advancing Item-Based Context-Aware Collaborative Filtering through Energy-Based Modeling and Post-Filtering with Energy Distance</td>
+												<td>Linh Thuy Thi Nguyen, Lan Phuong Phan, Hiep Xuan Huynh</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 81 - Semantic Image Annotation via Ontology Reasoning and Rule-Based Scene Graph Captioning</td>
+												<td>Pham Thi Thu Thuy, Doan Vu Thinh</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 140 - Unsupervised Panoptic Segmentation: An Energy Distance and PoI Approach</td>
+												<td>Toan Huynh, Tai Vo, Prof. Hiep Huynh</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 139 - Energy-Based Loss Function for Bounding Box</td>
+												<td>Dung Thi Dang, Khoi Tan Nguyen, Hiep Xuan Huynh</td>
+												<td></td>
+												</tr>
+
+												<!-- Coffee Break -->
+												<tr>
+												<td>15:50 - 16:10</td>
+												<td colspan="3" style="text-align:center;"><strong>Coffee Break</strong></td>
+												</tr>
+
+												<!-- Parallel Sessions (Afternoon 2) -->
+												<tr>
+												<td></td>
+												<td colspan="3" style="text-align:center;"><strong>Parallel Sessions</strong></td>
+												</tr>
+
+												<!-- Track: Cybersecurity, Privacy & Digital Forensics -->
+												<tr>
+												<td>16:10 - 17:30</td>
+												<td colspan="3" style="text-align:center;"><strong>Cybersecurity, Privacy &amp; Digital Forensics</strong></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 82 - Enhancing APT Attack Detection Performance Based on a Deep Learning and Transformer-Based Model</td>
+												<td>Vu, T., Do, X., Nguyen, M., Nguyen, L.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 125 - Federated Learning with Homomorphic Encryption and Adversarial Robustness for Privacy-Preserving Anomaly Detection in Digital Forensics</td>
+												<td>Xuan Hung Truong, The Dung Luong, Anh Tu Tran, Minh Nhat Vo</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 30 - From Layoff to Reemployment</td>
+												<td>Gupta, Y., Sukhija, S., Bavana, S., Chegu, S., Kalakonda, S., Mathur, Y., Polsani, M.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 37 - Local Core Centric Walk for Influence Maximization</td>
+												<td>Gupta, Y., Sukhija, S., Aute, S., Iyengar, SRS., Mittal, K., Narayanan, D.</td>
+												<td></td>
+												</tr>
+
+												<!-- Track: AI for IoT, Edge Computing & Domain Applications -->
+												<tr>
+												<td>16:10 - 17:30</td>
+												<td colspan="3" style="text-align:center;"><strong>AI for IoT, Edge Computing &amp; Domain Applications</strong></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 29 - A UAV-Relay and MEC with NOMA-enabled Backscatter Communications in IoT Network: Offloading Analysis and Optimization</td>
+												<td>Nguyen, A., Le, H., Nguyen, V., Ngo, T., Bui, N., Le, P., Hoang, M., Trinh, T., Hoang, T.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 41 - From Local to National: Agent-Based Modeling of Integrated Indicators for Maternal and Child Health Project Expansion</td>
+												<td>Nguyen-Ngoc, D., Le Mai Thanh, S., Tran Le, H., Truong Khanh, L., Do Bui Khanh, L., Vu Huong, N., T Nguyen, L.</td>
+												<td></td>
+												</tr>
+												<tr>
+												<td></td>
+												<td>ID 47 - A Scalable Federated Learning Framework for Medical Image Classification Using Hadoop, Spark, Kafka, and PyTorch</td>
+												<td>Le, D., Huynh, T., Huynh, D.</td>
+												<td></td>
+												</tr>
+
+												<!-- End of Day -->
+												<tr>
+												<td></td>
+												<td colspan="3" style="text-align:center;"><strong>End of Day 1</strong></td>
+												</tr>
+											</tbody>
+											</table>
+										</figure>
+									</div>
+
+    <!-- DAY 2 CONTENT -->
+    <div id="day2" class="tab-content">
+      <!-- <p><em>Program for Monday, December 15 will be updated soon.</em></p> -->
+		<figure class="wp-block-table is-style-stripes">
+			<table class="has-fixed-layout">
+			<thead>
+				<tr>
+				<th>Time</th>
+				<th>Session / Title</th>
+				<th>Speaker / Authors</th>
+				<th>Location</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Morning -->
+				<tr>
+				<td>08:30 – 09:00</td>
+				<td>Registration &amp; Welcome Coffee</td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>09:00 – 09:50</td>
+				<td><strong>Keynote:</strong> Safe, Transparent, and Private: The Next Frontier for LLMs</td>
+				<td>Dr. My T. Thai</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>09:50 – 10:10</td>
+				<td colspan="3" style="text-align:center;"><strong>Coffee Break</strong></td>
+				</tr>
+
+				<!-- Parallel Sessions (Morning) -->
+				<tr>
+				<td></td>
+				<td colspan="3" style="text-align:center;"><strong>Parallel Sessions</strong></td>
+				</tr>
+
+				<!-- Track: Multimodal Signal Processing and Pattern Analysis -->
+				<tr>
+				<td>10:10 – 11:50</td>
+				<td colspan="3" style="text-align:center;"><strong>Multimodal Signal Processing and Pattern Analysis</strong></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 23 - Analyzing Sleep Disorders and Stages with Power Spectral and Multifractal Features from EEG Signals</td>
+				<td>Nuyor, K., Suwanna, S., Jaroonchokanan, N.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 118 - EEG-STGNN: Unified Spatial–Temporal Modeling for Alzheimer’s and FTD Detection</td>
+				<td>Ujjain, S., Kagathara, V., Singh, P., Srivastava, E., Kumar, S., Gandhi, T.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 119 - Shrimp Feeding Sound Recognition Using Spectrogram Images and EfficientNet Deep Learning</td>
+				<td>Viet Hung, H., The Kiet, T., Minh Dat, M., Quoc Danh, L.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 34 - Optimization Evaluation of Urban Park Vitality Based on Dynamic Fuzzy Cognitive Map</td>
+				<td>Liu, Z., Li, X.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 25 - Sheet2Music: A Deep Learning Pipeline for Automated Conversion of Sheet Music to Digital Audio</td>
+				<td>Le, T., Manh, X.</td>
+				<td></td>
+				</tr>
+
+				<!-- Track: AI-TECH Workshop 3: AI/LLM Framework -->
+				<tr>
+				<td>10:10 – 11:50</td>
+				<td colspan="3" style="text-align:center;"><strong>AI-TECH Workshop 3: AI/LLM Framework</strong></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 115 - Open-Source Multimodal Large Language Model Application for Automated Advertising Banner Generation and Quality Validation</td>
+				<td>H.-A.-Khoi Ngo, Gia-Minh Pham, Dinh-Khoa Dang, H.-A.-Khoa Ngo</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 42 - A Framework for LLM-Powered Database Construction: Design, Implementation, and Case Studies</td>
+				<td>Ngoc-Thanh-Xuan Nguyen, Gia-Phat Le, Hoang-Nhat-Khang Vo, Ngoc-Sang Vo, Lu-Quynh-Nhu Ho, Hoang-Anh Pham</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 46 - An Automatic Business Process Evaluation Framework: Focusing on Quality, Flexibility, Transparency, and Exception Handling</td>
+				<td>Thai-Minh Truong, Hoang Nguyen, Hien Nguyen, Anh Nguyen</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 150 - A Web-Based Framework for Automated Insect Image Collection and Recognition Using YOLO11n-2</td>
+				<td>Thanh-Thi Doan, Phuc Huynh</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 49 - Federated Learning with Trust-Aware Blockchain Fingerprinting: A Secure and Verifiable Framework for Edge AI</td>
+				<td>Phuc Tran-Vinh, Thai-Minh Truong, Cuong Pham-Quoc</td>
+				<td></td>
+				</tr>
+
+				<!-- Lunch -->
+				<tr>
+				<td>11:50 – 13:30</td>
+				<td>Lunch</td>
+				<td></td>
+				<td></td>
+				</tr>
+
+				<!-- Afternoon Keynote -->
+				<tr>
+				<td>13:30 – 14:20</td>
+				<td><strong>Keynote:</strong> Rethinking Heterogeneous Network Learning: Label Distributions and Scalability</td>
+				<td>Dr. Xingquan Zhu</td>
+				<td></td>
+				</tr>
+
+				<!-- Parallel Sessions (Afternoon 1) -->
+				<tr>
+				<td></td>
+				<td colspan="3" style="text-align:center;"><strong>Parallel Sessions</strong></td>
+				</tr>
+
+				<!-- Track: Graphs, Language, and Multimodal Learning -->
+				<tr>
+				<td>14:20 – 16:00</td>
+				<td colspan="3" style="text-align:center;"><strong>Graphs, Language, and Multimodal Learning</strong></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 102 - HAMP: A Benchmark Dataset for Recognizing Hospital Interior Items</td>
+				<td>Huynh, S., Nguyen, H., Nguyen, A., Nguyen, T., Le, V., Nguyen, A., Ngo, D., Tran, D., Truong, T., Le, A., Tran, V., Phan, A.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 86 - SentiFuse: Deep Multi-Model Fusion Framework for Robust Sentiment Extraction</td>
+				<td>Duong, H., Ghosh, R., Nguyen, C., Levin, E., Gary, T., Nguyen, L.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 32 - VoiceSpoof-VN: A Public Dataset for Anti-Spoofing in Vietnamese Speaker Verification</td>
+				<td>Dang, A., Pham, A., Vi, D. Q.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 84 - Differential Learning for Data of Varying Importance via Selective Label Smoothing</td>
+				<td>Han, D., Moniz, N., Chawla, N.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 107 - A Maximum Likelihood Approach to Identify Anomalous Node Subsets with Extreme Structural Influence in Networks</td>
+				<td>Maulana, A., Husniah, H., Supriatna, A., Emmerich, M.</td>
+				<td></td>
+				</tr>
+
+				<!-- Track: AI-TECH Workshop 4: Recognition and Classification -->
+				<tr>
+				<td>14:20 – 16:00</td>
+				<td colspan="3" style="text-align:center;"><strong>AI-TECH Workshop 4: Recognition and Classification</strong></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 7 - O3D-Net: A Lightweight Neural ODE-Based Architecture for Efficient Skeleton-Based Human Action Recognition</td>
+				<td>Duc Minh Pham, Quang-Anh Nguyen Duc, Thi Ngan Tran, Minh-Anh Nguyen, Hai Nam Nguyen</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 87 - Consistency-Based Approach for Semi-Supervised Learning in Cervical Cells Image Classification</td>
+				<td>Nga Le-Thi-Thu, Hieu Le-Van, Thang Nguyen-Huu, Vu Nguyen-Tran-Huy, Dr Duc-Hien Nguyen, Phuoc Dat Doan</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 91 - Integrating MotionAGFormer and STEP for Emotion Recognition from Human Gait</td>
+				<td>Hieu Hoang, Minh Nguyen, Tu Tran, Thuc Hoang, Hanh Tran</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 62 - LLaMA3-Inspired Autoregressive Visual-Textual Fusion Augmented Stable Diffusion for Emoji Generation</td>
+				<td>Nguyen Duc Quang Anh, Quang Tiep Tran, Duc Pham Minh, Ngan Tran Thi, Michael Omar</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 79 - Multi-Branch Self Distillation with Attention Transfer for Facial Expression Recognition</td>
+				<td>Hong-Quan Do, Thanh-Hung Nguyen</td>
+				<td></td>
+				</tr>
+
+				<!-- Coffee Break -->
+				<tr>
+				<td>16:00 – 16:20</td>
+				<td colspan="3" style="text-align:center;"><strong>Coffee Break</strong></td>
+				</tr>
+
+				<!-- Parallel Sessions (Afternoon 2) -->
+				<tr>
+				<td></td>
+				<td colspan="3" style="text-align:center;"><strong>Parallel Sessions</strong></td>
+				</tr>
+
+				<!-- Track: Cybersecurity and Privacy -->
+				<tr>
+				<td>16:20 – 17:20</td>
+				<td colspan="3" style="text-align:center;"><strong>Cybersecurity and Privacy</strong></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 126 - Privacy-Preserving Text Forensics with Homomorphic Encryption and Blockchain-Based Evidence Provenance</td>
+				<td>Xuan Hung Truong, The Dung Luong, Anh Tu Tran, Minh Nhat Vo</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 12 - Proposed Identity-Based Authentication Key Exchange Protocol for Information Security in Enterprise Network</td>
+				<td>Nguyen, V., Le, M., Nguyen, V., Nguyen, T., Nguyen, V.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 8 - Sparse Locality-Sensitive Hashing Attention Model for Phishing Detection</td>
+				<td>Gaurav, A., Pan, V., Arya, V., Chui, K., Gupta, B.</td>
+				<td></td>
+				</tr>
+
+				<!-- Track: Machine Learning -->
+				<tr>
+				<td>16:20 – 17:20</td>
+				<td colspan="3" style="text-align:center;"><strong>Machine Learning</strong></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 100 - Enhancing LLM for Cross-Market Sentiment-Driven Stock Prediction</td>
+				<td>Nguyen, D., Le, T.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 85 - Regularizing Chart-Specialized Vision–Language Models for K–12 Hand-Drawn Math VQA: Performance and Representation Effects</td>
+				<td>Li, H., Xing, W., Li, C., Liu, Z.</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>ID 94 - Mitigating False Positives in Robust DWT-SVD Image Watermarking for Secure Content Protection on Online Platforms</td>
+				<td>Nguyen Minh, L., Ling, H., Dao, V., Dang, T., Kang, J., Han, F.</td>
+				<td></td>
+				</tr>
+
+				<!-- Banquet -->
+				<tr>
+				<td>17:20 – 18:00</td>
+				<td>Preparation, transfer to the banquet</td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>18:00 – 21:00</td>
+				<td>Banquet</td>
+				<td></td>
+				<td></td>
+				</tr>
+			</tbody>
+			</table>
+		</figure>
+
+    </div>
+
+    <!-- DAY 3 CONTENT -->
+    <div id="day3" class="tab-content">
+	<figure class="wp-block-table is-style-stripes">
+		<table class="has-fixed-layout">
+		<thead>
+			<tr>
+			<th>Time</th>
+			<th>Session / Title</th>
+			<th>Speaker / Authors</th>
+			<th>Location</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Morning Rising Star Talk -->
+			<tr>
+			<td>09:00 – 09:35</td>
+			<td><strong>Rising Star Talk:</strong> (Distributed) AI for Interdependent Cyberphysical Systems</td>
+			<td>Dr. Hadi Amini</td>
+			<td></td>
+			</tr>
+
+			<!-- Parallel Sessions (Morning) -->
+			<tr>
+			<td></td>
+			<td colspan="3" style="text-align:center;"><strong>Parallel Sessions</strong></td>
+			</tr>
+
+			<!-- Track: Short Papers 1 -->
+			<tr>
+			<td>09:35 – 10:50</td>
+			<td colspan="3" style="text-align:center;"><strong>Short Papers 1</strong></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 88 - 300 Food Ingredients Classification by Combining CLIP and YOLO Models</td>
+			<td>Vo Hong, K., Tran Thanh, N.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 92 - Gesture-Based PowerPoint Control: A MediaPipe and Machine Learning Approach</td>
+			<td>Ngô Giang, T., Vo Hong, K.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 116 - Advancing 3D Reconstruction: Integrating AI-Driven Neural Rendering with Geometric Techniques for High-Fidelity Model Generation from RGB Video</td>
+			<td>Ngo, H., Nguyen, V., Huynh, K., Ngo, H.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 103 - Automatically Generating Multiple-Choice Questions Using Text-to-Text Transformer</td>
+			<td>Lam, K., Nguyen, H., Le, L., Kalita, J.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 43 - Epileptic Seizure Classification Using Machine Learning</td>
+			<td>Le, T., Nguyen, T.</td>
+			<td></td>
+			</tr>
+
+			<!-- Track: Short Papers 2 -->
+			<tr>
+			<td>09:35 – 10:50</td>
+			<td colspan="3" style="text-align:center;"><strong>Short Papers 2</strong></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 76 - A Blockchain-Driven Framework for Transparent and Secure Donation Management: The Role of Blockchain, IPFS, and NFTs</td>
+			<td>Le, B., Nguyen, N.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 112 - Speech Region and Gender Recognition on a Vietnamese Accent Dataset</td>
+			<td>Ha Viet, T., Le Nhat, T., Huynh Minh, T., Nguyen Vo An, X., Nguyen Hong, N.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 50 - A Binning Approach Based on Gaussian Mixture for Disease Diagnosis on Metagenomic Data</td>
+			<td>Ngo, L., Nguyen, H., Dang, D., Pham, L.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 10 - Advancing Explainable AI in Early Screening of Neurodevelopmental Disorders</td>
+			<td>Vo, T.</td>
+			<td></td>
+			</tr>
+
+			<!-- Coffee Break -->
+			<tr>
+			<td>10:50 – 11:10</td>
+			<td colspan="3" style="text-align:center;"><strong>Coffee Break</strong></td>
+			</tr>
+
+			<!-- Rising Star Talk (Late Morning) -->
+			<tr>
+			<td>11:10 – 11:45</td>
+			<td><strong>Rising Star Talk:</strong> Federated Stochastic Compositional Optimization</td>
+			<td>Dr. Hongchang Gao</td>
+			<td></td>
+			</tr>
+
+			<!-- Parallel Sessions (Late Morning) -->
+			<tr>
+			<td></td>
+			<td colspan="3" style="text-align:center;"><strong>Parallel Sessions</strong></td>
+			</tr>
+
+			<!-- Track: Short Papers 3 -->
+			<tr>
+			<td>11:45 – 12:30</td>
+			<td colspan="3" style="text-align:center;"><strong>Short Papers 3</strong></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 117 - An Enhanced Approach for Kidney Pathology Segmentation</td>
+			<td>Trinh, H., Tran, K., Nguyen, N., Cao, T., Nguyen, B.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 110 - Applications of Lambert-W Function in Industrial Technology Problems</td>
+			<td>Maulana, A., Husniah, H., Kusmaya, K., Hasudungan, O., Yuriski, R., Wicaksono, A., Supriatna, A.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 89 - Attention-Enhanced YOLO-Nano for Adverse Weather Object Detection</td>
+			<td>Le, T., Ha, V., Nguyen, V., Huynh, A., Vo, P., Dinh Van, A., Nguyen Dinh, V.</td>
+			<td></td>
+			</tr>
+
+			<!-- Track: Short Papers 4 -->
+			<tr>
+			<td>11:45 – 12:30</td>
+			<td colspan="3" style="text-align:center;"><strong>Short Papers 4</strong></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 109 - Audio-Visual Deepfake Detection via Triple-Branch Cross-Modal Transformers</td>
+			<td>Le, T., Nguyen, N.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 99 - Deep Learning Model on Embedded Board for Vehicle Detection and Energy Efficiency</td>
+			<td>Tra, N.</td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>ID 113 - Spatial Point Process Modeling in 2D Polar Coordinates: Application to Probabilistic Seismic Hazard Analysis for the Sumatra Megathrust</td>
+			<td>Zainuddin, A., Pasaribu, U., Sari, R., Husniah, H.</td>
+			<td></td>
+			</tr>
+
+			<!-- Closing & Activities -->
+			<tr>
+			<td>12:30 – 12:50</td>
+			<td colspan="3" style="text-align:center;"><strong>Closing Remarks</strong></td>
+			</tr>
+			<tr>
+			<td>12:50 – 17:00</td>
+			<td colspan="3" style="text-align:center;"><strong>Optional City Tour, Other Activities</strong></td>
+			</tr>
+		</tbody>
+		</table>
+	</figure>
+	</div>
+
+  </div>
+
+  <!-- Optional: PDF embed (still commented out)
+  <object class="wp-block-file__embed" data="./../../wp-content/uploads/2024/11/CSoNet2024Program_updated.pdf" type="application/pdf" style="width:100%;height:760px" aria-label="Embed of Technical Program CSoNet2024."></object>
+  <a href="./../../wp-content/uploads/2024/11/CSoNet2024Program_updated.pdf">Technical Program CSoNet2024</a>
+  <a href="./../../wp-content/uploads/2024/11/CSoNet2024Program_updated.pdf" class="wp-block-file__button" download>Download</a>
+  -->
+</div><!-- .entry-content -->
 
 							
 								<footer class="entry-footer">
@@ -641,7 +1429,21 @@
 	<script type="text/javascript" src="./../../wp-includes/js/wp-embed.min.js?ver=5.8" id="wp-embed-js"></script>
 	<script>
 		/(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () { var t, e = location.hash.substring(1); /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus()) }, !1);
+	</script>	
+	<script>
+	document.querySelectorAll('.csonet-tabs .tab-header li').forEach(function(tab) {
+	tab.addEventListener('click', function() {
+		// Remove active class
+		document.querySelectorAll('.csonet-tabs .tab-header li').forEach(li => li.classList.remove('active'));
+		document.querySelectorAll('.csonet-tabs .tab-content').forEach(tc => tc.classList.remove('active'));
+
+		// Add active class to clicked tab + its content
+		this.classList.add('active');
+		document.getElementById(this.dataset.tab).classList.add('active');
+	});
+	});
 	</script>
+
 
 </body>
 
