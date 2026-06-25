@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(fuser -k 8080/tcp)",
+      "Bash(python3 -m http.server 8080)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/csonet26/index.php/ai-tech-workshop/index.html)"
+    ]
+  }
+}
