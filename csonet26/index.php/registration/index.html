@@ -346,6 +346,41 @@
 			text-align: justify;
 		}
 
+        .registration-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .entry-content .registration-button {
+            display: inline-block;
+            padding: 12px 20px;
+            border: 2px solid #a32d2d;
+            border-radius: 4px;
+            background: #a32d2d;
+            color: #fff;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .entry-content .registration-button-secondary {
+            background: #fff;
+            color: #a32d2d;
+        }
+
+        .entry-content .registration-button:hover {
+            border-color: #762020;
+            background: #762020;
+            color: #fff;
+        }
+
+        .entry-content .registration-button:focus-visible {
+            outline: 3px solid #222;
+            outline-offset: 3px;
+        }
+
 		.has-text-align-left {
 			text-align: justify;
 		}
@@ -530,7 +565,10 @@
 
 								<div class="entry-content">
 
-									<p><strong>Registration payment link: To be announced</p>
+									<div class="registration-actions">
+                                        <a class="registration-button" href="https://csonetconf.com/register">Start registration</a>
+                                        <a class="registration-button registration-button-secondary" href="https://csonetconf.com/manage">Manage existing registration</a>
+                                    </div>
 
 									<h4>Registration rate:</h4>
 									<figure class="wp-block-table">
@@ -580,6 +618,11 @@
 										<li>The registration fee includes admission to all conference sessions, conference proceedings, coffee break refreshments, lunches and gala diner.</li>
 										<li>For other registration (non-authors, co-authors, or full time students but not to register the paper), a 100 USD handling fee will be applied if the cancelation is before <strong>15 October 2026</strong>. Fees cannot be refunded for registrations canceled after <strong>15 October 2026</strong>.</li>
 									</ul>
+                                    <h4>Additional information:</h4>
+                                    <ol>
+                                        <li><strong>One registration per email address.</strong> Because each accepted paper needs its own registration, use a different email address for each additional paper. If you start again with the same email address before paying, your unfinished registration is replaced.</li>
+                                        <li><strong>Optional extras</strong> must be selected on the registration form (they cannot be added to an existing registration online): extra gala dinner ticket, 100 USD each (up to 10 per registration); extra camera-ready page, 50 USD each (up to 3 per registration; enter the ID of the paper it is for).</li>
+                                    </ol>
 									<h4>Financial support:</h4>
 									<ul>
 										<li>
