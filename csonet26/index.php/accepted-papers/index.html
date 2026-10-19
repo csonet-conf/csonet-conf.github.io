@@ -533,7 +533,7 @@
                                     </ul>
 
 <style>
-.ap-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:10px 0 24px}
+.ap-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:10px 0 24px}
 .ap-stat{display:flex;flex-direction:column;align-items:center;padding:16px 10px;border:1px solid #ececec;border-radius:10px;background:#fff;text-decoration:none!important;color:#47425d!important;box-shadow:0 1px 3px rgba(0,0,0,.05);transition:transform .15s,box-shadow .15s,border-color .15s}
 .ap-stat:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(214,80,80,.15);border-color:#d65050}
 .ap-stat .ap-num{font-size:30px;font-weight:700;line-height:1.1;color:#d65050}
@@ -573,10 +573,11 @@ h5.ap-heading{border-left-width:3px;font-size:16px}
 </style>
 
 <div class="ap-stats">
-<a class="ap-stat ap-stat-total" href="#regular"><span class="ap-num">153</span><span class="ap-lbl">Accepted papers</span></a>
+<a class="ap-stat ap-stat-total" href="#regular"><span class="ap-num">153</span><span class="ap-lbl">Total</span></a>
 <a class="ap-stat" href="#regular"><span class="ap-num">99</span><span class="ap-lbl">Regular</span></a>
 <a class="ap-stat" href="#short"><span class="ap-num">30</span><span class="ap-lbl">Short</span></a>
-<a class="ap-stat" href="#workshop"><span class="ap-num">24</span><span class="ap-lbl">Workshop</span></a>
+<a class="ap-stat" href="#workshop"><span class="ap-num">20</span><span class="ap-lbl">Workshop</span></a>
+<a class="ap-stat" href="#exact"><span class="ap-num">4</span><span class="ap-lbl">Special Session</span></a>
 </div>
 <div class="ap-search"><input type="search" id="ap-q" placeholder="Search by paper ID, title or author&hellip;" aria-label="Search accepted papers"><span id="ap-none" hidden>No papers match your search.</span></div>
 <section class="ap-section" id="regular">
@@ -725,7 +726,7 @@ h5.ap-heading{border-left-width:3px;font-size:16px}
 </table></div>
 </section>
 <section class="ap-section" id="workshop">
-<h4 class="ap-heading">Workshop Papers <span class="ap-count">24</span></h4>
+<h4 class="ap-heading">Workshop Papers <span class="ap-count">20</span></h4>
 <section class="ap-section ap-sub" id="ai-tech">
 <h5 class="ap-heading">AI-TECH Workshop <span class="ap-count">15</span></h5>
 <div class="ap-table-wrap"><table class="ap-table">
@@ -762,8 +763,9 @@ h5.ap-heading{border-left-width:3px;font-size:16px}
 </tbody>
 </table></div>
 </section>
-<section class="ap-section ap-sub" id="exact">
-<h5 class="ap-heading">Special Session: EXACT Competition <span class="ap-count">4</span></h5>
+</section>
+<section class="ap-section" id="exact">
+<h4 class="ap-heading">Special Session: EXACT Competition <span class="ap-count">4</span></h4>
 <div class="ap-table-wrap"><table class="ap-table">
 <thead><tr><th class="ap-id">ID</th><th>Title</th><th>Authors</th></tr></thead>
 <tbody>
@@ -773,7 +775,6 @@ h5.ap-heading{border-left-width:3px;font-size:16px}
 <tr><td class="ap-id"><span class="ap-badge">#325</span></td><td class="ap-title">UIT-DSDeTem at EXACT2026: Resource-Aware Hybrid System for Physics Question Answering with Graph-Based Symbolic Solvers and Selective Language-Model Assistance</td><td class="ap-authors">Trần Minh Phát, Thiên Bảo Bùi</td></tr>
 </tbody>
 </table></div>
-</section>
 </section>
 <script>
 (function(){
